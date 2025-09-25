@@ -1200,7 +1200,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #756f26;
+  background: #a76ff1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2450,3 +2450,26 @@ embed {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.accounting-widget {
+  margin: 20px 0;
+}
+.accounting-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.accounting-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.accounting-table th,
+.accounting-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+.accounting-table thead {
+  background-color: #f2f2f2;
+}
+/* 可以进一步根据NexT主题的颜色变量调整，使风格更统一 */
