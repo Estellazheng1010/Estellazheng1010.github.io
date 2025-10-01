@@ -27,178 +27,6 @@ Here you can find anything you want (Only about me, about Estella).Or share your
       </tags>
   </entry>
   <entry>
-    <title>今天吃什么？ What did I eat?</title>
-    <url>/2025/09/23/%E4%BB%8A%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88%EF%BC%9F-What-did-I-eat/</url>
-    <content><![CDATA[琐事
-
-记录每日饮食 Diet Record2025.9.23今天中午吃的拼好饭，哎，晚上因为要改作业就吃了香肠和面包。高级数据新闻你欠我的拿什么还Today I ate some cheap food for lunch… Sadly, as I need to polish our project for Advanced Data Journalism, I only ate sausage and bread for dinner. Oh! My! God!
-2025.9.24今天中午也吃的拼好饭，下午去办入职顺便上班到了7点，就把晚饭进化掉了，于是回宿舍之后喝了一杯八宝粥Still cheap food for lunch. I went to the company for onboarding in the afternoon and ended up working until 7.p.m, so I didn’t have dinner. Eventually ,I had a bowl of Eight Treasure Gruel after I arrived my dorm.
-2025.9.25今天中午依旧吃的拼好饭，晚上喝了一杯甜啦啦，感觉彻底把晚饭进化掉了Still cheap food for lunch….And had a cup of milk tea in the evening. I think I don’t need to have dinner any more.
-2025.9.29今天吃的麦当劳早饭，因为早上有早八，午饭的点不饿就没吃午饭，晚饭的点也不饿，，，所以今天只吃了一顿麦当劳早饭，，哦还有领导姐姐请我喝的饮料和部门送的水果。Today I ate a hamburger and a cup of coffee of McDonald for breakfast, as I needed to listen to a lecture at 8.a.m. And I was not hungry at both lunch and dinner. So I just had breakfast today..Oh,, I also had a drink from leader and some fruit from department. 
-2025.9.30今天回家了！中午吃了个杨国富拼好饭，晚上吃的海肠捞饭嘿嘿I went home today! I ate some cheap food for lunch but had my favorite meal for dinner.
-2025.10.1今天在家吃了两顿家常菜，喜欢I had two home-cooked meals at home today and I really enjoy them.
-]]></content>
-      <tags>
-        <tag>琐事</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为什么要写两种语言？ Why do I write both Chinese and English</title>
-    <url>/2025/09/23/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E4%B8%A4%E7%A7%8D%E8%AF%AD%E8%A8%80%EF%BC%9F-Why-do-I-write-both-Chinese-and-English/</url>
-    <content><![CDATA[自述
-
-当然是因为… Because…我要考gre啊啊啊啊，还要出国读研（如果能申上），用这种方式锻炼锻炼英语熟悉一下英文环境吧。
-I need to take the GRE test!! And I want to go abroad for Master Degree…(If I can)So I have to use this method to train my English skill and make me familiar with the English environment….
-]]></content>
-      <tags>
-        <tag>自述</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>每日开支 There is no English</title>
-    <url>/2025/09/25/%E6%AF%8F%E6%97%A5%E5%BC%80%E6%94%AF-There-is-no-English/</url>
-    <content><![CDATA[琐事
-记账当然不可能还有中英两版了！手机里下载了一万个记账软件还是不记得要记，但是现在可以趁每日更新网站的时候顺便记个帐了嘻嘻我真是天才
-
-  
-    
-      
-        全部年份
-      
-      
-        全部月份
-      
-      
-        全部日期
-      
-      重置
-    
-    
-      
-    
-    
-      
-        日期类别金额备注
-      
-      
-        
-      
-    
-  
-  
-    // 将数据注入到全局变量
-    window.accountingData = [{"date":"2025-09-25","amount":-6.93,"category":"餐饮","note":"没忍住喝了 一杯奶茶","type":"expense"},{"date":"2025-09-25","amount":-13.9,"category":"餐饮","note":"鱼籽村拼好饭","type":"expense"},{"date":"2025-09-25","amount":-7.91,"category":"餐饮","note":"太渴了喝了瓶饮料，好像是喜茶轻果茶，没想到这么贵","type":"expense"},{"date":"2025-09-26","amount":-9.71,"category":"餐饮","note":"早饭买了个面包和一瓶营养快线","type":"expense"},{"date":"2025-09-26","amount":-10.9,"category":"餐饮","note":"瑞幸苹果冰美式好喝！","type":"expense"},{"date":"2025-09-26","amount":-13.9,"category":"餐饮","note":"鱼籽村拼好饭","type":"expense"},{"date":"2025-09-26","amount":-10,"category":"交通","note":"地铁来回通勤","type":"expense"},{"date":"2025-09-26","amount":-100,"category":"娱乐","note":"娱乐一下","type":"expense"},{"date":"2025-09-26","amount":-68,"category":"娱乐","note":"好像是燕云战令","type":"expense"},{"date":"2025-09-26","amount":-8.75,"category":"餐饮","note":"一点点苹果茉莉绿","type":"expense"},{"date":"2025-09-26","amount":-15,"category":"非主动支出","note":"全民k歌自动续费","type":"expense"},{"date":"2025-09-27","amount":-13.9,"category":"餐饮","note":"拼好饭意大利面","type":"expense"},{"date":"2025-09-27","amount":-16.9,"category":"餐饮","note":"拼好饭汉堡王","type":"expense"},{"date":"2025-09-27","amount":-13.5,"category":"餐饮","note":"茉莉奶白针王苹果","type":"expense"},{"date":"2025-09-27","amount":-19.8,"category":"娱乐","note":"反正是花给燕云了是什么你别管","type":"expense"},{"date":"2025-09-28","amount":-7.5,"category":"家用","note":"床帘挂钩","type":"expense"},{"date":"2025-09-28","amount":-10,"category":"娱乐","note":"长佩文学又花我钱了","type":"expense"},{"date":"2025-09-28","amount":-17.7,"category":"餐饮","note":"预定的麦当劳早餐","type":"expense"},{"date":"2025-09-28","amount":-15.9,"category":"餐饮","note":"午饭拼好饭麻辣烫","type":"expense"},{"date":"2025-09-28","amount":-5.9,"category":"餐饮","note":"一股奶粉味的拼好饭蜜雪冰城苹果奶绿","type":"expense"},{"date":"2025-09-28","amount":-11.9,"category":"餐饮","note":"晚饭拼好饭正新鸡排","type":"expense"},{"date":"2025-09-29","amount":-6,"category":"非主动支出","note":"icloud自动扣款","type":"expense"},{"date":"2025-09-29","amount":-10,"category":"交通","note":"上班地铁通勤","type":"expense"},{"date":"2025-09-29","amount":226,"category":"交通","note":"南京行程取消了","type":"income"},{"date":"2025-09-29","amount":-497,"category":"交通","note":"差点忘记买苏州回北京的票","type":"expense"},{"date":"2025-09-29","amount":-20,"category":"日用品","note":"差点忘记买了","type":"expense"},{"date":"2025-09-30","amount":-88.06,"category":"娱乐","note":"买了一个有侧键的无线鼠标","type":"expense"},{"date":"2025-09-30","amount":-88.06,"category":"娱乐","note":"买了一个有侧键的无线鼠标","type":"expense"},{"date":"2025-09-30","amount":-3,"category":"交通","note":"我不允许快递再送到47号楼了","type":"expense"},{"date":"2025-09-30","amount":-5,"category":"交通","note":"中传到北京南","type":"expense"},{"date":"2025-09-30","amount":-12,"category":"餐饮","note":"买了两瓶AD钙奶，本来是因为看到说两瓶8块钱才买的，结果发现只有会员才行，气得我怒喝两瓶","type":"expense"},{"date":"2025-09-30","amount":-30,"category":"非主动支出","note":"QQ音乐自动续费","type":"expense"},{"date":"2025-10-01","amount":-21.35,"category":"交通","note":"往返万象汇","type":"expense"}];
-
-    document.addEventListener('DOMContentLoaded', function () {
-      const data = window.accountingData;
-      if (!data || data.length === 0) {
-        document.getElementById('accounting-stats').innerHTML = '暂无记账数据';
-        return;
-      }
-
-      const yearSelect = document.getElementById('filter-year');
-      const monthSelect = document.getElementById('filter-month');
-      const daySelect = document.getElementById('filter-day');
-      const resetButton = document.getElementById('filter-reset');
-      const statsContainer = document.getElementById('accounting-stats');
-      const tbodyContainer = document.getElementById('accounting-tbody');
-
-      const years = new Set();
-      const months = new Set();
-      const days = new Set();
-
-      // 提取所有年、月、日用于填充筛选框
-      data.forEach(record => {
-        const [year, month, day] = record.date.split('-');
-        years.add(year);
-        months.add(month);
-        days.add(day);
-      });
-
-      // 填充筛选框选项
-      [...years].sort().forEach(year => {
-        yearSelect.innerHTML += `${year}`;
-      });
-      [...months].sort((a, b) => a - b).forEach(month => {
-        monthSelect.innerHTML += `${month}月`;
-      });
-      [...days].sort((a, b) => a - b).forEach(day => {
-        daySelect.innerHTML += `${day}日`;
-      });
-
-      // 核心筛选和渲染函数
-      function filterAndRender() {
-        const selectedYear = yearSelect.value;
-        const selectedMonth = monthSelect.value;
-        const selectedDay = daySelect.value;
-
-        const filteredData = data.filter(record => {
-          const [year, month, day] = record.date.split('-');
-          const yearMatch = !selectedYear || year === selectedYear;
-          const monthMatch = !selectedMonth || month === selectedMonth;
-          const dayMatch = !selectedDay || day === selectedDay;
-          return yearMatch && monthMatch && dayMatch;
-        });
-
-        // 计算统计数据
-        let totalIncome = 0;
-        let totalExpense = 0;
-        filteredData.forEach(record => {
-          if (record.type === 'income') {
-            totalIncome += record.amount;
-          } else {
-            totalExpense += Math.abs(record.amount);
-          }
-        });
-        const balance = totalIncome - totalExpense;
-
-        // 渲染统计信息
-        statsContainer.innerHTML = `
-          总收入: ${totalIncome.toFixed(2)}
-          总支出: ${totalExpense.toFixed(2)}
-          结余: ${balance.toFixed(2)}
-        `;
-
-        // 渲染表格
-        tbodyContainer.innerHTML = ''; // 清空现有内容
-        if (filteredData.length === 0) {
-          tbodyContainer.innerHTML = '没有符合条件的记录';
-        } else {
-          filteredData.forEach(record => {
-            tbodyContainer.innerHTML += `
-              
-                ${record.date}
-                ${record.category}
-                ${record.amount.toFixed(2)}
-                ${record.note}
-              
-            `;
-          });
-        }
-      }
-
-      // 绑定事件监听器
-      yearSelect.addEventListener('change', filterAndRender);
-      monthSelect.addEventListener('change', filterAndRender);
-      daySelect.addEventListener('change', filterAndRender);
-      resetButton.addEventListener('click', () => {
-        yearSelect.value = '';
-        monthSelect.value = '';
-        daySelect.value = '';
-        filterAndRender();
-      });
-
-      // 页面加载时执行一次，显示全部数据
-      filterAndRender();
-    });
-  
-  
-]]></content>
-      <tags>
-        <tag>琐事</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>你也要我和一起学GRE 吗？Do you want to remenber GRE words with me?</title>
     <url>/2025/09/25/%E4%BD%A0%E4%B9%9F%E8%A6%81%E6%88%91%E5%92%8C%E4%B8%80%E8%B5%B7%E5%AD%A6GRE-%E5%90%97%EF%BC%9FDo-you-want-to-remenber-GRE-words-with-me/</url>
     <content><![CDATA[学习
@@ -412,6 +240,189 @@ castigation n. 惩罚；谴责 （cast(纯洁的)+ig（去做）+ation）
 ]]></content>
       <tags>
         <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>今天吃什么？ What did I eat?</title>
+    <url>/2025/09/23/%E4%BB%8A%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88%EF%BC%9F-What-did-I-eat/</url>
+    <content><![CDATA[琐事
+
+记录每日饮食 Diet Record2025.9.23今天中午吃的拼好饭，哎，晚上因为要改作业就吃了香肠和面包。高级数据新闻你欠我的拿什么还Today I ate some cheap food for lunch… Sadly, as I need to polish our project for Advanced Data Journalism, I only ate sausage and bread for dinner. Oh! My! God!
+2025.9.24今天中午也吃的拼好饭，下午去办入职顺便上班到了7点，就把晚饭进化掉了，于是回宿舍之后喝了一杯八宝粥Still cheap food for lunch. I went to the company for onboarding in the afternoon and ended up working until 7.p.m, so I didn’t have dinner. Eventually ,I had a bowl of Eight Treasure Gruel after I arrived my dorm.
+2025.9.25今天中午依旧吃的拼好饭，晚上喝了一杯甜啦啦，感觉彻底把晚饭进化掉了Still cheap food for lunch….And had a cup of milk tea in the evening. I think I don’t need to have dinner any more.
+2025.9.29今天吃的麦当劳早饭，因为早上有早八，午饭的点不饿就没吃午饭，晚饭的点也不饿，，，所以今天只吃了一顿麦当劳早饭，，哦还有领导姐姐请我喝的饮料和部门送的水果。Today I ate a hamburger and a cup of coffee of McDonald for breakfast, as I needed to listen to a lecture at 8.a.m. And I was not hungry at both lunch and dinner. So I just had breakfast today..Oh,, I also had a drink from leader and some fruit from department. 
+2025.9.30今天回家了！中午吃了个杨国富拼好饭，晚上吃的海肠捞饭嘿嘿I went home today! I ate some cheap food for lunch but had my favorite meal for dinner.
+2025.10.1今天在家吃了两顿家常菜，喜欢I had two home-cooked meals at home today and I really enjoy them.
+]]></content>
+      <tags>
+        <tag>琐事</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么要写两种语言？ Why do I write both Chinese and English</title>
+    <url>/2025/09/23/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E4%B8%A4%E7%A7%8D%E8%AF%AD%E8%A8%80%EF%BC%9F-Why-do-I-write-both-Chinese-and-English/</url>
+    <content><![CDATA[自述
+
+当然是因为… Because…我要考gre啊啊啊啊，还要出国读研（如果能申上），用这种方式锻炼锻炼英语熟悉一下英文环境吧。
+I need to take the GRE test!! And I want to go abroad for Master Degree…(If I can)So I have to use this method to train my English skill and make me familiar with the English environment….
+]]></content>
+      <tags>
+        <tag>自述</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>每日开支 There is no English</title>
+    <url>/2025/09/25/%E6%AF%8F%E6%97%A5%E5%BC%80%E6%94%AF-There-is-no-English/</url>
+    <content><![CDATA[琐事
+记账当然不可能还有中英两版了！手机里下载了一万个记账软件还是不记得要记，但是现在可以趁每日更新网站的时候顺便记个帐了嘻嘻我真是天才
+
+  
+    
+      
+        全部年份
+      
+      
+        全部月份
+      
+      
+        全部日期
+      
+      
+      
+        全部分类
+      
+      重置
+    
+    
+    
+    
+      
+        日期类别金额备注
+      
+      
+      
+    
+  
+  
+    window.accountingData = [{"date":"2025-09-25","amount":-6.93,"category":"餐饮","note":"没忍住喝了 一杯奶茶","type":"expense"},{"date":"2025-09-25","amount":-13.9,"category":"餐饮","note":"鱼籽村拼好饭","type":"expense"},{"date":"2025-09-25","amount":-7.91,"category":"餐饮","note":"太渴了喝了瓶饮料，好像是喜茶轻果茶，没想到这么贵","type":"expense"},{"date":"2025-09-26","amount":-9.71,"category":"餐饮","note":"早饭买了个面包和一瓶营养快线","type":"expense"},{"date":"2025-09-26","amount":-10.9,"category":"餐饮","note":"瑞幸苹果冰美式好喝！","type":"expense"},{"date":"2025-09-26","amount":-13.9,"category":"餐饮","note":"鱼籽村拼好饭","type":"expense"},{"date":"2025-09-26","amount":-10,"category":"交通","note":"地铁来回通勤","type":"expense"},{"date":"2025-09-26","amount":-100,"category":"娱乐","note":"娱乐一下","type":"expense"},{"date":"2025-09-26","amount":-68,"category":"娱乐","note":"好像是燕云战令","type":"expense"},{"date":"2025-09-26","amount":-8.75,"category":"餐饮","note":"一点点苹果茉莉绿","type":"expense"},{"date":"2025-09-26","amount":-15,"category":"非主动支出","note":"全民k歌自动续费","type":"expense"},{"date":"2025-09-27","amount":-13.9,"category":"餐饮","note":"拼好饭意大利面","type":"expense"},{"date":"2025-09-27","amount":-16.9,"category":"餐饮","note":"拼好饭汉堡王","type":"expense"},{"date":"2025-09-27","amount":-13.5,"category":"餐饮","note":"茉莉奶白针王苹果","type":"expense"},{"date":"2025-09-27","amount":-19.8,"category":"娱乐","note":"反正是花给燕云了是什么你别管","type":"expense"},{"date":"2025-09-28","amount":-7.5,"category":"家用","note":"床帘挂钩","type":"expense"},{"date":"2025-09-28","amount":-10,"category":"娱乐","note":"长佩文学又花我钱了","type":"expense"},{"date":"2025-09-28","amount":-17.7,"category":"餐饮","note":"预定的麦当劳早餐","type":"expense"},{"date":"2025-09-28","amount":-15.9,"category":"餐饮","note":"午饭拼好饭麻辣烫","type":"expense"},{"date":"2025-09-28","amount":-5.9,"category":"餐饮","note":"一股奶粉味的拼好饭蜜雪冰城苹果奶绿","type":"expense"},{"date":"2025-09-28","amount":-11.9,"category":"餐饮","note":"晚饭拼好饭正新鸡排","type":"expense"},{"date":"2025-09-29","amount":-6,"category":"非主动支出","note":"icloud自动扣款","type":"expense"},{"date":"2025-09-29","amount":-10,"category":"交通","note":"上班地铁通勤","type":"expense"},{"date":"2025-09-29","amount":226,"category":"交通","note":"南京行程取消了","type":"income"},{"date":"2025-09-29","amount":-497,"category":"交通","note":"差点忘记买苏州回北京的票","type":"expense"},{"date":"2025-09-29","amount":-20,"category":"日用品","note":"差点忘记买了","type":"expense"},{"date":"2025-09-30","amount":-88.06,"category":"娱乐","note":"买了一个有侧键的无线鼠标","type":"expense"},{"date":"2025-09-30","amount":-88.06,"category":"娱乐","note":"买了一个有侧键的无线鼠标","type":"expense"},{"date":"2025-09-30","amount":-3,"category":"交通","note":"我不允许快递再送到47号楼了","type":"expense"},{"date":"2025-09-30","amount":-5,"category":"交通","note":"中传到北京南","type":"expense"},{"date":"2025-09-30","amount":-12,"category":"餐饮","note":"买了两瓶AD钙奶，本来是因为看到说两瓶8块钱才买的，结果发现只有会员才行，气得我怒喝两瓶","type":"expense"},{"date":"2025-09-30","amount":-30,"category":"非主动支出","note":"QQ音乐自动续费","type":"expense"},{"date":"2025-10-01","amount":-21.35,"category":"交通","note":"往返万象汇","type":"expense"}];
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const data = window.accountingData;
+      if (!data || data.length === 0) {
+        document.getElementById('accounting-stats').innerHTML = '暂无记账数据';
+        return;
+      }
+
+      const yearSelect = document.getElementById('filter-year');
+      const monthSelect = document.getElementById('filter-month');
+      const daySelect = document.getElementById('filter-day');
+      // 2. 获取新增的分类下拉框元素
+      const categorySelect = document.getElementById('filter-category');
+      const resetButton = document.getElementById('filter-reset');
+      const statsContainer = document.getElementById('accounting-stats');
+      const tbodyContainer = document.getElementById('accounting-tbody');
+
+      const years = new Set();
+      const months = new Set();
+      const days = new Set();
+      // 3. 新增一个Set来存储分类
+      const categories = new Set();
+
+      data.forEach(record => {
+        const [year, month, day] = record.date.split('-');
+        years.add(year);
+        months.add(month);
+        days.add(day);
+        // 4. 提取所有分类
+        categories.add(record.category);
+      });
+
+      [...years].sort().forEach(year => {
+        yearSelect.innerHTML += `${year}`;
+      });
+      [...months].sort((a, b) => a - b).forEach(month => {
+        monthSelect.innerHTML += `${month}月`;
+      });
+      [...days].sort((a, b) => a - b).forEach(day => {
+        daySelect.innerHTML += `${day}日`;
+      });
+      // 5. 填充分类下拉框选项（按字母顺序排序）
+      [...categories].sort().forEach(category => {
+        categorySelect.innerHTML += `${category}`;
+      });
+
+      function filterAndRender() {
+        const selectedYear = yearSelect.value;
+        const selectedMonth = monthSelect.value;
+        const selectedDay = daySelect.value;
+        // 6. 获取选中的分类
+        const selectedCategory = categorySelect.value;
+
+        const filteredData = data.filter(record => {
+          const [year, month, day] = record.date.split('-');
+          const yearMatch = !selectedYear || year === selectedYear;
+          const monthMatch = !selectedMonth || month === selectedMonth;
+          const dayMatch = !selectedDay || day === selectedDay;
+          // 7. 增加分类匹配逻辑
+          const categoryMatch = !selectedCategory || record.category === selectedCategory;
+          return yearMatch && monthMatch && dayMatch && categoryMatch;
+        });
+
+        let totalIncome = 0;
+        let totalExpense = 0;
+        filteredData.forEach(record => {
+          if (record.type === 'income') {
+            totalIncome += record.amount;
+          } else {
+            totalExpense += Math.abs(record.amount);
+          }
+        });
+        const balance = totalIncome - totalExpense;
+
+        statsContainer.innerHTML = `
+          总收入: ${totalIncome.toFixed(2)}
+          总支出: ${totalExpense.toFixed(2)}
+          结余: ${balance.toFixed(2)}
+        `;
+
+        tbodyContainer.innerHTML = '';
+        if (filteredData.length === 0) {
+          tbodyContainer.innerHTML = '没有符合条件的记录';
+        } else {
+          filteredData.forEach(record => {
+            tbodyContainer.innerHTML += `
+              
+                ${record.date}
+                ${record.category}
+                ${record.amount.toFixed(2)}
+                ${record.note}
+              
+            `;
+          });
+        }
+      }
+
+      yearSelect.addEventListener('change', filterAndRender);
+      monthSelect.addEventListener('change', filterAndRender);
+      daySelect.addEventListener('change', filterAndRender);
+      // 8. 为分类下拉框绑定事件
+      categorySelect.addEventListener('change', filterAndRender);
+      resetButton.addEventListener('click', () => {
+        yearSelect.value = '';
+        monthSelect.value = '';
+        daySelect.value = '';
+        // 9. 重置分类筛选器
+        categorySelect.value = '';
+        filterAndRender();
+      });
+
+      filterAndRender();
+    });
+  
+  
+]]></content>
+      <tags>
+        <tag>琐事</tag>
       </tags>
   </entry>
   <entry>
