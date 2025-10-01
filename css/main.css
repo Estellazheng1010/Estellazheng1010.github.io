@@ -1200,7 +1200,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a60eb1;
+  background: #df0aff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2452,6 +2452,42 @@ embed {
 }
 .accounting-widget {
   margin: 20px 0;
+}
+/* 新增：筛选器样式 */
+.accounting-filters {
+  display: flex;
+  justify-content: flex-start; /* 靠左对齐 */
+  align-items: center;
+  gap: 10px; /* 元素之间的间距 */
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* 在小屏幕上自动换行 */
+}
+.accounting-filters select,
+.accounting-filters button {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px; /* 圆角 */
+  background-color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.accounting-filters select:hover,
+.accounting-filters button:hover {
+  border-color: #ccc;
+}
+.accounting-filters select:focus,
+.accounting-filters button:focus {
+  outline: none;
+  border-color: #222; /* 可以换成你主题的主色调 */
+  box-shadow: 0 0 5px rgba(34,34,34,0.2);
+}
+.accounting-filters button {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.accounting-filters button:hover {
+  background-color: #e8e8e8;
 }
 .accounting-stats {
   display: flex;

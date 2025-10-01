@@ -232,248 +232,138 @@
 <p>记账当然不可能还有中英两版了！<br>手机里下载了一万个记账软件还是不记得要记，但是现在可以趁每日更新网站的时候顺便记个帐了嘻嘻我真是天才</p>
 
   <div class="accounting-widget">
-    <div class="accounting-stats">
-      <span>总收入: <strong>226.00</strong></span>
-      <span>总支出: <strong>1178.47</strong></span>
-      <span>结余: <strong style="color: red">-952.47</strong></span>
+    <div class="accounting-filters">
+      <select id="filter-year">
+        <option value="">全部年份</option>
+      </select>
+      <select id="filter-month">
+        <option value="">全部月份</option>
+      </select>
+      <select id="filter-day">
+        <option value="">全部日期</option>
+      </select>
+      <button id="filter-reset">重置</button>
+    </div>
+    <div class="accounting-stats" id="accounting-stats">
+      <!-- 统计信息将由JS动态填充 -->
     </div>
     <table class="accounting-table">
       <thead>
         <tr><th>日期</th><th>类别</th><th>金额</th><th>备注</th></tr>
       </thead>
-      <tbody>
+      <tbody id="accounting-tbody">
+        <!-- 表格内容将由JS动态填充 -->
+      </tbody>
+    </table>
+  </div>
+  <script>
+    // 将数据注入到全局变量
+    window.accountingData = [{"date":"2025-09-25","amount":-6.93,"category":"餐饮","note":"没忍住喝了 一杯奶茶","type":"expense"},{"date":"2025-09-25","amount":-13.9,"category":"餐饮","note":"鱼籽村拼好饭","type":"expense"},{"date":"2025-09-25","amount":-7.91,"category":"餐饮","note":"太渴了喝了瓶饮料，好像是喜茶轻果茶，没想到这么贵","type":"expense"},{"date":"2025-09-26","amount":-9.71,"category":"餐饮","note":"早饭买了个面包和一瓶营养快线","type":"expense"},{"date":"2025-09-26","amount":-10.9,"category":"餐饮","note":"瑞幸苹果冰美式好喝！","type":"expense"},{"date":"2025-09-26","amount":-13.9,"category":"餐饮","note":"鱼籽村拼好饭","type":"expense"},{"date":"2025-09-26","amount":-10,"category":"交通","note":"地铁来回通勤","type":"expense"},{"date":"2025-09-26","amount":-100,"category":"娱乐","note":"娱乐一下","type":"expense"},{"date":"2025-09-26","amount":-68,"category":"娱乐","note":"好像是燕云战令","type":"expense"},{"date":"2025-09-26","amount":-8.75,"category":"餐饮","note":"一点点苹果茉莉绿","type":"expense"},{"date":"2025-09-26","amount":-15,"category":"非主动支出","note":"全民k歌自动续费","type":"expense"},{"date":"2025-09-27","amount":-13.9,"category":"餐饮","note":"拼好饭意大利面","type":"expense"},{"date":"2025-09-27","amount":-16.9,"category":"餐饮","note":"拼好饭汉堡王","type":"expense"},{"date":"2025-09-27","amount":-13.5,"category":"餐饮","note":"茉莉奶白针王苹果","type":"expense"},{"date":"2025-09-27","amount":-19.8,"category":"娱乐","note":"反正是花给燕云了是什么你别管","type":"expense"},{"date":"2025-09-28","amount":-7.5,"category":"家用","note":"床帘挂钩","type":"expense"},{"date":"2025-09-28","amount":-10,"category":"娱乐","note":"长佩文学又花我钱了","type":"expense"},{"date":"2025-09-28","amount":-17.7,"category":"餐饮","note":"预定的麦当劳早餐","type":"expense"},{"date":"2025-09-28","amount":-15.9,"category":"餐饮","note":"午饭拼好饭麻辣烫","type":"expense"},{"date":"2025-09-28","amount":-5.9,"category":"餐饮","note":"一股奶粉味的拼好饭蜜雪冰城苹果奶绿","type":"expense"},{"date":"2025-09-28","amount":-11.9,"category":"餐饮","note":"晚饭拼好饭正新鸡排","type":"expense"},{"date":"2025-09-29","amount":-6,"category":"非主动支出","note":"icloud自动扣款","type":"expense"},{"date":"2025-09-29","amount":-10,"category":"交通","note":"上班地铁通勤","type":"expense"},{"date":"2025-09-29","amount":226,"category":"交通","note":"南京行程取消了","type":"income"},{"date":"2025-09-29","amount":-497,"category":"交通","note":"差点忘记买苏州回北京的票","type":"expense"},{"date":"2025-09-29","amount":-20,"category":"日用品","note":"差点忘记买了","type":"expense"},{"date":"2025-09-30","amount":-88.06,"category":"娱乐","note":"买了一个有侧键的无线鼠标","type":"expense"},{"date":"2025-09-30","amount":-88.06,"category":"娱乐","note":"买了一个有侧键的无线鼠标","type":"expense"},{"date":"2025-09-30","amount":-3,"category":"交通","note":"我不允许快递再送到47号楼了","type":"expense"},{"date":"2025-09-30","amount":-5,"category":"交通","note":"中传到北京南","type":"expense"},{"date":"2025-09-30","amount":-12,"category":"餐饮","note":"买了两瓶AD钙奶，本来是因为看到说两瓶8块钱才买的，结果发现只有会员才行，气得我怒喝两瓶","type":"expense"},{"date":"2025-09-30","amount":-30,"category":"非主动支出","note":"QQ音乐自动续费","type":"expense"},{"date":"2025-10-01","amount":-21.35,"category":"交通","note":"往返万象汇","type":"expense"}];
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const data = window.accountingData;
+      if (!data || data.length === 0) {
+        document.getElementById('accounting-stats').innerHTML = '<p>暂无记账数据</p>';
+        return;
+      }
+
+      const yearSelect = document.getElementById('filter-year');
+      const monthSelect = document.getElementById('filter-month');
+      const daySelect = document.getElementById('filter-day');
+      const resetButton = document.getElementById('filter-reset');
+      const statsContainer = document.getElementById('accounting-stats');
+      const tbodyContainer = document.getElementById('accounting-tbody');
+
+      const years = new Set();
+      const months = new Set();
+      const days = new Set();
+
+      // 提取所有年、月、日用于填充筛选框
+      data.forEach(record => {
+        const [year, month, day] = record.date.split('-');
+        years.add(year);
+        months.add(month);
+        days.add(day);
+      });
+
+      // 填充筛选框选项
+      [...years].sort().forEach(year => {
+        yearSelect.innerHTML += `<option value="${year}">${year}</option>`;
+      });
+      [...months].sort((a, b) => a - b).forEach(month => {
+        monthSelect.innerHTML += `<option value="${month}">${month}月</option>`;
+      });
+      [...days].sort((a, b) => a - b).forEach(day => {
+        daySelect.innerHTML += `<option value="${day}">${day}日</option>`;
+      });
+
+      // 核心筛选和渲染函数
+      function filterAndRender() {
+        const selectedYear = yearSelect.value;
+        const selectedMonth = monthSelect.value;
+        const selectedDay = daySelect.value;
+
+        const filteredData = data.filter(record => {
+          const [year, month, day] = record.date.split('-');
+          const yearMatch = !selectedYear || year === selectedYear;
+          const monthMatch = !selectedMonth || month === selectedMonth;
+          const dayMatch = !selectedDay || day === selectedDay;
+          return yearMatch && monthMatch && dayMatch;
+        });
+
+        // 计算统计数据
+        let totalIncome = 0;
+        let totalExpense = 0;
+        filteredData.forEach(record => {
+          if (record.type === 'income') {
+            totalIncome += record.amount;
+          } else {
+            totalExpense += Math.abs(record.amount);
+          }
+        });
+        const balance = totalIncome - totalExpense;
+
+        // 渲染统计信息
+        statsContainer.innerHTML = `
+          <span>总收入: <strong>${totalIncome.toFixed(2)}</strong></span>
+          <span>总支出: <strong style="color: red;">${totalExpense.toFixed(2)}</strong></span>
+          <span>结余: <strong style="color: ${balance >= 0 ? 'green' : 'red'}">${balance.toFixed(2)}</strong></span>
+        `;
+
+        // 渲染表格
+        tbodyContainer.innerHTML = ''; // 清空现有内容
+        if (filteredData.length === 0) {
+          tbodyContainer.innerHTML = '<tr><td colspan="4" style="text-align:center;">没有符合条件的记录</td></tr>';
+        } else {
+          filteredData.forEach(record => {
+            tbodyContainer.innerHTML += `
+              <tr>
+                <td>${record.date}</td>
+                <td>${record.category}</td>
+                <td style="color: ${record.type === 'income' ? 'green' : 'red'}">${record.amount.toFixed(2)}</td>
+                <td>${record.note}</td>
+              </tr>
+            `;
+          });
+        }
+      }
+
+      // 绑定事件监听器
+      yearSelect.addEventListener('change', filterAndRender);
+      monthSelect.addEventListener('change', filterAndRender);
+      daySelect.addEventListener('change', filterAndRender);
+      resetButton.addEventListener('click', () => {
+        yearSelect.value = '';
+        monthSelect.value = '';
+        daySelect.value = '';
+        filterAndRender();
+      });
+
+      // 页面加载时执行一次，显示全部数据
+      filterAndRender();
+    });
+  </script>
   
-      <tr>
-        <td>2025-09-25</td>
-        <td>餐饮</td>
-        <td style="color: red">-6.93</td>
-        <td>没忍住喝了 一杯奶茶</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-25</td>
-        <td>餐饮</td>
-        <td style="color: red">-13.90</td>
-        <td>鱼籽村拼好饭</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-25</td>
-        <td>餐饮</td>
-        <td style="color: red">-7.91</td>
-        <td>太渴了喝了瓶饮料，好像是喜茶轻果茶，没想到这么贵</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-26</td>
-        <td>餐饮</td>
-        <td style="color: red">-9.71</td>
-        <td>早饭买了个面包和一瓶营养快线</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-26</td>
-        <td>餐饮</td>
-        <td style="color: red">-10.90</td>
-        <td>瑞幸苹果冰美式好喝！</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-26</td>
-        <td>餐饮</td>
-        <td style="color: red">-13.90</td>
-        <td>鱼籽村拼好饭</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-26</td>
-        <td>交通</td>
-        <td style="color: red">-10.00</td>
-        <td>地铁来回通勤</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-26</td>
-        <td>娱乐</td>
-        <td style="color: red">-100.00</td>
-        <td>娱乐一下</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-26</td>
-        <td>娱乐</td>
-        <td style="color: red">-68.00</td>
-        <td>好像是燕云战令</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-26</td>
-        <td>餐饮</td>
-        <td style="color: red">-8.75</td>
-        <td>一点点苹果茉莉绿</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-26</td>
-        <td>非主动支出</td>
-        <td style="color: red">-15.00</td>
-        <td>全民k歌自动续费</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-27</td>
-        <td>餐饮</td>
-        <td style="color: red">-13.90</td>
-        <td>拼好饭意大利面</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-27</td>
-        <td>餐饮</td>
-        <td style="color: red">-16.90</td>
-        <td>拼好饭汉堡王</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-27</td>
-        <td>餐饮</td>
-        <td style="color: red">-13.50</td>
-        <td>茉莉奶白针王苹果</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-27</td>
-        <td>娱乐</td>
-        <td style="color: red">-19.80</td>
-        <td>反正是花给燕云了是什么你别管</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-28</td>
-        <td>家用</td>
-        <td style="color: red">-7.50</td>
-        <td>床帘挂钩</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-28</td>
-        <td>娱乐</td>
-        <td style="color: red">-10.00</td>
-        <td>长佩文学又花我钱了</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-28</td>
-        <td>餐饮</td>
-        <td style="color: red">-17.70</td>
-        <td>预定的麦当劳早餐</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-28</td>
-        <td>餐饮</td>
-        <td style="color: red">-15.90</td>
-        <td>午饭拼好饭麻辣烫</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-28</td>
-        <td>餐饮</td>
-        <td style="color: red">-5.90</td>
-        <td>一股奶粉味的拼好饭蜜雪冰城苹果奶绿</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-28</td>
-        <td>餐饮</td>
-        <td style="color: red">-11.90</td>
-        <td>晚饭拼好饭正新鸡排</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-29</td>
-        <td>非主动支出</td>
-        <td style="color: red">-6.00</td>
-        <td>icloud自动扣款</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-29</td>
-        <td>交通</td>
-        <td style="color: red">-10.00</td>
-        <td>上班地铁通勤</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-29</td>
-        <td>交通</td>
-        <td style="color: green">226.00</td>
-        <td>南京行程取消了</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-29</td>
-        <td>交通</td>
-        <td style="color: red">-497.00</td>
-        <td>差点忘记买苏州回北京的票</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-29</td>
-        <td>日用品</td>
-        <td style="color: red">-20.00</td>
-        <td>差点忘记买了</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-30</td>
-        <td>娱乐</td>
-        <td style="color: red">-88.06</td>
-        <td>买了一个有侧键的无线鼠标</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-30</td>
-        <td>娱乐</td>
-        <td style="color: red">-88.06</td>
-        <td>买了一个有侧键的无线鼠标</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-30</td>
-        <td>交通</td>
-        <td style="color: red">-3.00</td>
-        <td>我不允许快递再送到47号楼了</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-30</td>
-        <td>交通</td>
-        <td style="color: red">-5.00</td>
-        <td>中传到北京南</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-30</td>
-        <td>餐饮</td>
-        <td style="color: red">-12.00</td>
-        <td>买了两瓶AD钙奶，本来是因为看到说两瓶8块钱才买的，结果发现只有会员才行，气得我怒喝两瓶</td>
-      </tr>
-    
-      <tr>
-        <td>2025-09-30</td>
-        <td>非主动支出</td>
-        <td style="color: red">-30.00</td>
-        <td>QQ音乐自动续费</td>
-      </tr>
-    
-      <tr>
-        <td>2025-10-01</td>
-        <td>交通</td>
-        <td style="color: red">-21.35</td>
-        <td>往返万象汇</td>
-      </tr>
-    </tbody></table></div>
 
     </div>
 
