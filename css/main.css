@@ -1200,7 +1200,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #c7e5ff;
+  background: #fff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2509,3 +2509,53 @@ embed {
   background-color: #f2f2f2;
 }
 /* 可以进一步根据NexT主题的颜色变量调整，使风格更统一 */
+.sidebar-subscribe {
+  margin: 20px 0;
+  padding: 15px;
+  background: var(--card-bg-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px var(--card-shadow-color);
+}
+.sidebar-subscribe-title {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.sidebar-subscribe-desc {
+  margin: 0 0 12px 0;
+  font-size: 13px;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#subscriber-email {
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 14px;
+  background: var(--body-bg-color);
+  color: var(--text-color);
+}
+.subscribe-button {
+  padding: 8px 12px;
+  background: var(--btn-default-bg);
+  color: var(--btn-default-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+.subscribe-button:hover {
+  background: var(--btn-default-hover-bg);
+}
+.subscribe-message {
+  margin: 8px 0 0 0;
+  font-size: 12px;
+  min-height: 16px;
+}
