@@ -1200,7 +1200,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #fff;
+  background: #247021;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2558,4 +2558,13 @@ embed {
   margin: 8px 0 0 0;
   font-size: 12px;
   min-height: 16px;
+}
+/* 移动端适配 */
+@media (max-width: 767px) {
+  .subscription-widget input[type="email"],
+  .subscription-widget button {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
 }
