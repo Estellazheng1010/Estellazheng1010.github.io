@@ -64,3 +64,6 @@ I've been eating really well these days.So indulgent!!!!! I had coconut chicken 
 ### 2025.11.1
 今天早上我和yyw跑去国交楼下的健身房去健身了，所以中午就在国交一楼吃的，那家日料的蛋包饭好好吃！！就是小贵
 This morning, Even and I went to the gym downstairs of the International Exchange Center to exercise. So I had lunch in it. The Japanese omurice there was so delicious!!! Just a little bit expensive.
+
+### 2025.11.3
+今天吃的海南鸡饭巨难吃，好生气。
