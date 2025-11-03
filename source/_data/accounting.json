@@ -342,6 +342,56 @@
     "category": "餐饮",
     "note": "海南鸡饭，爱吃",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-03",
+    "amount": -16.8,
+    "category": "餐饮",
+    "note": "瑞幸的红豆子拿铁不如阿克苏苹果拿铁，香蕉蛋糕好难吃",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-03",
+    "amount": -10,
+    "category": "交通",
+    "note": "地铁来回通勤",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-03",
+    "amount": -3,
+    "category": "餐饮",
+    "note": "下班路上没忍住吃了一根淀粉肠",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-03",
+    "amount": -5,
+    "category": "餐饮",
+    "note": "不知道为什么好热就买了根冰淇淋吃",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-03",
+    "amount": 11.82,
+    "category": "娱乐",
+    "note": "昨天百业红包的退款",
+    "type": "income"
+  },
+  {
+    "date": "2025-11-03",
+    "amount": -5.5,
+    "category": "餐饮",
+    "note": "又没忍住买了楼下柜里的肠",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-03",
+    "amount": -17.8,
+    "category": "餐饮",
+    "note": "气死我了气死我了今天这个海南鸡饭太难吃了，就便宜几毛钱同一家店怎么能难吃成这样气死我了",
+    "type": "expense"
   }
+
 
 ]
