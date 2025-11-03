@@ -113,3 +113,16 @@ deploy:
   type: git
   repo: git@github.com:Estellazheng1010/Estellazheng1010.github.io.git
   branch: main
+  message: "更新博客: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  
+  # 关键：包含源文件
+  include:
+    - themes/
+    - source/
+    - scaffolds/
+    - _config.yml
+    - _config.next.yml  # 如果有Next主题配置
+    - package.json
+    - package-lock.json
+    - .github/  # GitHub Actions
+    - scripts/  # 你的脚本
