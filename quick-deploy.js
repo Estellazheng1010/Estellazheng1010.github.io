@@ -10,7 +10,8 @@ const PROTECTED_PATHS = [
   'scripts/',
   'package.json',
   'package-lock.json',
-  'quick-deploy.js'
+  'quick-deploy.js',
+  '.nojekyll'
 ];
 
 function runCommand(command, description, ignoreErrors = false) {
