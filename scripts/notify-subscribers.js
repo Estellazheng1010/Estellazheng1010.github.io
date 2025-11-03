@@ -1,3 +1,4 @@
+const nodemailer = require('nodemailer');
 const getSubscribers = require('./get-subscribers');
 
 // 检查是否在本地 Hexo 环境中运行
