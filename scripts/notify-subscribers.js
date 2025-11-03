@@ -13,16 +13,16 @@ if (!process.env.GITHUB_ACTIONS && (!process.env.LEANCLOUD_APP_ID || !process.en
   return;
 }
 
-// 邮件配置
+// QQ 邮箱 SMTP 配置
 const smtpConfig = {
-  host: 'smtp.gmail.com', // 或其他SMTP服务器
-  port: 587,
-  secure: false,
-  auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS
-  }
-};
+    host: 'smtp.qq.com',      // QQ 邮箱服务器
+    port: 587,                // 或 465
+    secure: false,            // 587 端口为 false，465 端口为 true
+    auth: {
+      user: process.env.SMTP_USER,  // 你的 QQ 邮箱
+      pass: process.env.SMTP_PASS   // QQ 邮箱授权码，不是密码！
+    }
+  };
 
 // 创建邮件传输器
 const transporter = nodemailer.createTransport(smtpConfig);
