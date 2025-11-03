@@ -1,0 +1,39 @@
+name: Debug Environment Variables
+
+on: [workflow_dispatch]
+
+jobs:
+  debug-env:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Debug - Check Secrets Existence
+        run: |
+          echo "=== Secrets 存在性检查 ==="
+          echo "LEANCLOUD_APP_ID: ${{ secrets.LEANCLOUD_APP_ID != '' && 'SET' || 'NOT SET' }}"
+          echo "LEANCLOUD_APP_KEY: ${{ secrets.LEANCLOUD_APP_KEY != '' && 'SET' || 'NOT SET' }}"
+          echo "LEANCLOUD_SERVER_URL: ${{ secrets.LEANCLOUD_SERVER_URL != '' && 'SET' || 'NOT SET' }}"
+          echo "SMTP_USER: ${{ secrets.SMTP_USER != '' && 'SET' || 'NOT SET' }}"
+          echo "SMTP_PASS: ${{ secrets.SMTP_PASS != '' && 'SET' || 'NOT SET' }}"
+
+      - name: Debug - Check Actual Values (Secure)
+        run: |
+          echo "=== Secrets 值长度检查 ==="
+          echo "LEANCLOUD_APP_ID length: ${#LEANCLOUD_APP_ID}"
+          echo "LEANCLOUD_APP_KEY length: ${#LEANCLOUD_APP_KEY}"
+          echo "LEANCLOUD_SERVER_URL length: ${#LEANCLOUD_SERVER_URL}"
+          echo "SMTP_USER length: ${#SMTP_USER}"
+          echo "SMTP_PASS length: ${#SMTP_PASS}"
+        env:
+          LEANCLOUD_APP_ID: ${{ secrets.LEANCLOUD_APP_ID }}
+          LEANCLOUD_APP_KEY: ${{ secrets.LEANCLOUD_APP_KEY }}
+          LEANCLOUD_SERVER_URL: ${{ secrets.LEANCLOUD_SERVER_URL }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+
+      - name: Debug - List All Environment Variables
+        run: |
+          echo "=== 所有环境变量 ==="
+          env | sort
