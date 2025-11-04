@@ -1200,7 +1200,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #247021;
+  background: #04e532;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2508,63 +2508,249 @@ embed {
 .accounting-table thead {
   background-color: #f2f2f2;
 }
-/* 可以进一步根据NexT主题的颜色变量调整，使风格更统一 */
+/* ===== 订阅表单样式 - 完整响应式版本 ===== */
+/* 订阅容器样式 */
 .sidebar-subscribe {
+  background: var(--card-bg-color, #f8f9fa);
+  border-radius: 12px;
+  padding: 24px;
   margin: 20px 0;
-  padding: 15px;
-  background: var(--card-bg-color);
-  border-radius: 8px;
-  box-shadow: 0 2px 8px var(--card-shadow-color);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border: 1px solid var(--border-color, #eaeaea);
+  position: relative;
 }
+/* 标题样式 */
 .sidebar-subscribe-title {
-  margin: 0 0 8px 0;
-  font-size: 16px;
+  font-size: 1.25rem;
   font-weight: 600;
-  color: var(--text-color);
+  margin: 0 0 8px 0;
+  color: var(--text-color, #2c3e50);
+  line-height: 1.4;
 }
+/* 描述文本 */
 .sidebar-subscribe-desc {
-  margin: 0 0 12px 0;
-  font-size: 13px;
+  font-size: 0.875rem;
   color: var(--text-color);
   opacity: 0.8;
+  margin: 0 0 20px 0;
+  line-height: 1.5;
 }
+/* 表单容器 */
 .subscribe-form {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
 }
+/* 邮箱输入框 */
 #subscriber-email {
-  padding: 8px 12px;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  font-size: 14px;
-  background: var(--body-bg-color);
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--border-color, #e1e5e9);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: var(--body-bg-color, #fff);
+  color: var(--text-color, #2c3e50);
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+#subscriber-email:focus {
+  outline: none;
+  border-color: var(--btn-default-bg, #3498db);
+  box-shadow: 0 0 0 3px rgba(52,152,219,0.1);
+}
+#subscriber-email::placeholder {
   color: var(--text-color);
+  opacity: 0.6;
 }
-.subscribe-button {
-  padding: 8px 12px;
-  background: var(--btn-default-bg);
-  color: var(--btn-default-color);
+/* 订阅按钮 */
+#subscribe-btn.subscribe-button {
+  padding: 12px 24px;
+  background: var(--btn-default-bg, #3498db);
+  color: var(--btn-default-color, #fff);
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
   cursor: pointer;
-  font-size: 14px;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
 }
-.subscribe-button:hover {
-  background: var(--btn-default-hover-bg);
+#subscribe-btn.subscribe-button:hover {
+  background: var(--btn-default-hover-bg, #2980b9);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(52,152,219,0.3);
 }
-.subscribe-message {
-  margin: 8px 0 0 0;
-  font-size: 12px;
+#subscribe-btn.subscribe-button:active {
+  transform: translateY(0);
+}
+#subscribe-btn.subscribe-button:disabled {
+  background: var(--text-muted-color, #bdc3c7);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+  opacity: 0.7;
+}
+/* 加载状态 */
+#subscribe-btn.subscribe-button.loading::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  border-top: 2px solid currentColor;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+/* 消息提示 */
+#subscribe-msg.subscribe-message {
+  font-size: 0.875rem;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-top: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
   min-height: 16px;
 }
-/* 移动端适配 */
-@media (max-width: 767px) {
-  .subscription-widget input[type="email"],
-  .subscription-widget button {
-    width: 100%;
-    border-radius: 4px;
-    margin-bottom: 10px;
+/* 不同状态的消息样式 */
+#subscribe-msg.subscribe-message.success {
+  background: rgba(46,204,113,0.1);
+  color: #27ae60;
+  border: 1px solid rgba(46,204,113,0.2);
+}
+#subscribe-msg.subscribe-message.error {
+  background: rgba(231,76,60,0.1);
+  color: #c0392b;
+  border: 1px solid rgba(231,76,60,0.2);
+}
+#subscribe-msg.subscribe-message.warning {
+  background: rgba(241,196,15,0.1);
+  color: #d35400;
+  border: 1px solid rgba(241,196,15,0.2);
+}
+#subscribe-msg.subscribe-message.loading {
+  background: rgba(52,152,219,0.1);
+  color: #3498db;
+  border: 1px solid rgba(52,152,219,0.2);
+}
+#subscribe-msg.subscribe-message.info {
+  background: rgba(149,165,166,0.1);
+  color: #7f8c8d;
+  border: 1px solid rgba(149,165,166,0.2);
+}
+/* ===== 移动端响应式样式 ===== */
+/* 平板设备 (768px 及以下) */
+@media (max-width: 768px) {
+  .sidebar-subscribe {
+    padding: 20px;
+    margin: 16px 0;
+    border-radius: 10px;
+  }
+  .sidebar-subscribe-title {
+    font-size: 1.125rem;
+  }
+  .sidebar-subscribe-desc {
+    font-size: 0.85rem;
+  }
+  #subscriber-email {
+    padding: 14px 16px;
+    font-size: 1rem; /* 移动端增大字体提高可读性 */
+  }
+  #subscribe-btn.subscribe-button {
+    padding: 14px 20px;
+    font-size: 1rem;
+    min-height: 52px; /* 移动端增大点击区域 */
+  }
+}
+/* 手机设备 (480px 及以下) */
+@media (max-width: 480px) {
+  .sidebar-subscribe {
+    padding: 16px;
+    margin: 12px 0;
+    border-radius: 8px;
+  }
+  .sidebar-subscribe-title {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+  .sidebar-subscribe-desc {
+    font-size: 0.8rem;
+    margin-bottom: 16px;
+  }
+  .subscribe-form {
+    gap: 10px;
+  }
+  #subscriber-email {
+    padding: 12px 14px;
+    font-size: 0.95rem;
+  }
+  #subscribe-btn.subscribe-button {
+    padding: 12px 18px;
+    font-size: 0.95rem;
+    min-height: 48px;
+  }
+  #subscribe-msg.subscribe-message {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+}
+/* 小屏手机 (360px 及以下) */
+@media (max-width: 360px) {
+  .sidebar-subscribe {
+    padding: 14px;
+  }
+  .sidebar-subscribe-title {
+    font-size: 1rem;
+  }
+  #subscriber-email,
+  #subscribe-btn.subscribe-button {
+    font-size: 0.9rem;
+  }
+}
+/* 侧边栏内的订阅表单特定样式 */
+.sidebar .sidebar-subscribe {
+  position: sticky;
+  top: 20px;
+  margin-top: 20px;
+}
+/* 移动端侧边栏样式调整 */
+@media (max-width: 991px) {
+  .sidebar .sidebar-subscribe {
+    position: static;
+    margin-top: 0;
+  }
+}
+@-moz-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
