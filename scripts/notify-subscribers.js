@@ -7,7 +7,7 @@ if (!process.env.GITHUB_ACTIONS && (!process.env.LEANCLOUD_APP_ID || !process.en
   // 在 Hexo 环境中，直接退出而不执行
   if (typeof module !== 'undefined' && module.exports) {
     // 在 Node.js 环境中
-    process.exit(0);
+    return;
   }
   // 在其他环境中，直接返回
   return;

@@ -117,12 +117,6 @@ deploy:
   
   # 关键：包含源文件
   include:
-    - themes/
-    - source/
-    - scaffolds/
-    - _config.yml
-    - _config.next.yml  # 如果有Next主题配置
-    - package.json
-    - package-lock.json
+
     - .github/  # GitHub Actions
     - scripts/  # 你的脚本

@@ -391,7 +391,90 @@
     "category": "餐饮",
     "note": "气死我了气死我了今天这个海南鸡饭太难吃了，就便宜几毛钱同一家店怎么能难吃成这样气死我了",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-04",
+    "amount": -9.9,
+    "category": "餐饮",
+    "note": "麦当劳早餐，我发现了一个很便宜还不用早餐卡的套餐哈哈哈哈",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-04",
+    "amount": -30,
+    "category": "非主动支出",
+    "note": "不知道是苹果什么的自动续费额",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-04",
+    "amount": -10,
+    "category": "娱乐",
+    "note": "晋江文学城又来骗我钱了，什么时候我也要在这上面捞钱",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-04",
+    "amount": -67.98,
+    "category": "娱乐",
+    "note": "燕云拼好战令。我的八音什么时候来",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-04",
+    "amount": -13.9,
+    "category": "餐饮",
+    "note": "田老师家常菜拼好饭还是很实惠的，再也不会点海南鸡饭了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-04",
+    "amount": -43,
+    "category": "餐饮",
+    "note": "爽吃肯德基，窑鸡只要29.9比窑鸡王便宜，蛋挞还巨好吃^o^",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-05",
+    "amount": -79,
+    "category": "餐饮",
+    "note": "寿司郎鹅肝寿司超级无敌好吃爽吃，但是千层蛋糕太甜了齁死我了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-05",
+    "amount": -65.5,
+    "category": "餐饮",
+    "note": "好久没喝酒了终于喝上了，雾隐环境还是比喜鹊好很多的",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-05",
+    "amount": -16,
+    "category": "作业",
+    "note": "借了麦克风",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-05",
+    "amount": -8.28,
+    "category": "交通",
+    "note": "打车去朝悦回雾隐",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-05",
+    "amount": -12.4,
+    "category": "餐饮",
+    "note": "早餐 面包+咖啡",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-05",
+    "amount": -100,
+    "category": "每月一善",
+    "note": "UNICEF月捐",
+    "type": "expense"
   }
-
 
 ]
