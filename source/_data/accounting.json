@@ -475,6 +475,27 @@
     "category": "每月一善",
     "note": "UNICEF月捐",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-06",
+    "amount": -56.3,
+    "category": "餐饮",
+    "note": "又没忍住吃肯德基，nm记到这个帐才想起来yyw还没给我转钱",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-06",
+    "amount": -27.52,
+    "category": "日用品",
+    "note": "太搞笑了先用后付的折叠椅今天才给我扣款",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-06",
+    "amount": -12.1,
+    "category": "餐饮",
+    "note": "不知道吃什么就吃沙县的炒米粉",
+    "type": "expense"
   }
 
 ]
