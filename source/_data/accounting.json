@@ -496,6 +496,77 @@
     "category": "餐饮",
     "note": "不知道吃什么就吃沙县的炒米粉",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-07",
+    "amount": -55.56,
+    "category": "交通",
+    "note": "呵呵早上没起来快迟到了还碰上下雨没打伞，打车去的公司，又是白打工的一天",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-07",
+    "amount": -12,
+    "category": "餐饮",
+    "note": "早饭在公司售货机买了一瓶东方树叶和一个贝果",
+    "type": "expense"
+  },
+    {
+    "date": "2025-11-07",
+    "amount": -12,
+    "category": "餐饮",
+    "note": "早饭在公司售货机买了一瓶东方树叶和一个贝果",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-07",
+    "amount": -68,
+    "category": "餐饮",
+    "note": "中午和公司的哥哥姐姐去798吃了川菜，鱼香肉丝好吃",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-07",
+    "amount": -3.25,
+    "category": "交通",
+    "note": "打车去798的钱",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-07",
+    "amount": -5,
+    "category": "交通",
+    "note": "坐地铁回学校听讲座",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-07",
+    "amount": -47.4,
+    "category": "餐饮",
+    "note": "我不行了，货到付款的特仑苏低脂牛奶",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-07",
+    "amount": -15,
+    "category": "餐饮",
+    "note": "两个自动售卖机的鹅腿，太饿了晚上",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-07",
+    "amount": -15,
+    "category": "餐饮",
+    "note": "两个自动售卖机的鹅腿，太饿了晚上",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-07",
+    "amount": -13.58,
+    "category": "赔钱",
+    "note": "不知道为什么弄丢了无人机的一根连接线，只好买一根补上了",
+    "type": "expense"
   }
+
 
 ]
