@@ -643,6 +643,68 @@
     "category": "餐饮",
     "note": "喝了一杯开心果茉莉椰，对自己太好了",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-10",
+    "amount": -3,
+    "category": "交通",
+    "note": "骑车去47号楼拿快递呵呵",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-10",
+    "amount": -30,
+    "category": "娱乐",
+    "note": "又给燕云续月卡了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-10",
+    "amount": -18.5,
+    "category": "餐饮",
+    "note": "爷爷不泡茶的红苹果好喝",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-10",
+    "amount": -74,
+    "category": "餐饮",
+    "note": "寿司郎吃美了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-10",
+    "amount": -12.7,
+    "category": "餐饮",
+    "note": "田老师红烧狮子头还是便宜又好吃的",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-10",
+    "amount": -11.88,
+    "category": "交通",
+    "note": "往返朝阳大悦城",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-10",
+    "amount": -6.25,
+    "category": "餐饮",
+    "note": "提前买的明天早饭面包",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-10",
+    "amount": 9.08,
+    "category": "赔钱",
+    "note": "赔的连接线钱a了",
+    "type": "income"
+  },
+  {
+    "date": "2025-11-10",
+    "amount": 39.6,
+    "category": "娱乐",
+    "note": "没抽出去的脆生生",
+    "type": "income"
   }
-
 ]

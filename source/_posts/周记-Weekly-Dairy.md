@@ -33,3 +33,5 @@ I'm tired of writing English, please translate the rest content by yourself.
 I've done many things this week, even though I still had no time remenbering GRE, as the foreign week is coming! (forgive my terrible grammar)
 
 However, the course is quiet interesting! At least, I learned many new things like how to fly the drone. Oh my god, I still don't want to write English as I'm so tired now hahah. Forgive me and translate by yourselves.
+
+卧槽11.8忘记写周记了，算了下周再说
