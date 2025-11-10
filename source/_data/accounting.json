@@ -566,7 +566,83 @@
     "category": "赔钱",
     "note": "不知道为什么弄丢了无人机的一根连接线，只好买一根补上了",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-08",
+    "amount": -37.2,
+    "category": "餐饮",
+    "note": "美味寿司碗/波奇饭/Poke Bowl",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-08",
+    "amount": -13.9,
+    "category": "餐饮",
+    "note": "草莓酸奶",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-08",
+    "amount": -31.2,
+    "category": "餐饮",
+    "note": "美味海肠捞饭",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-08",
+    "amount": -7.5,
+    "category": "餐饮",
+    "note": "美味鹅腿",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-08",
+    "amount": 21,
+    "category": "餐饮",
+    "note": "yyw转我了kfc的钱",
+    "type": "income"
+  },
+  {
+    "date": "2025-11-09",
+    "amount": -39.16,
+    "category": "交通",
+    "note": "打车来回长楹天街做头发护理",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-09",
+    "amount": -99,
+    "category": "娱乐",
+    "note": "送了10x5包脆生生给百业",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-09",
+    "amount": -12.73,
+    "category": "餐饮",
+    "note": "晚上打游戏打饿了点周黑鸭",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-09",
+    "amount": -30,
+    "category": "餐饮",
+    "note": "中午吃了吉野家",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-09",
+    "amount": -7.5,
+    "category": "餐饮",
+    "note": "晚上又买了个鹅腿",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-09",
+    "amount": -16,
+    "category": "餐饮",
+    "note": "喝了一杯开心果茉莉椰，对自己太好了",
+    "type": "expense"
   }
-
 
 ]
