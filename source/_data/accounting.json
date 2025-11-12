@@ -697,7 +697,7 @@
     "date": "2025-11-10",
     "amount": 9.08,
     "category": "赔钱",
-    "note": "赔的连接线钱a了",
+    "note": "赔的连接线钱a了，我擦太好笑了，我在无人机群直接开的群收款，结果yyw小号也在群里、、收少了呵呵",
     "type": "income"
   },
   {
@@ -706,5 +706,63 @@
     "category": "娱乐",
     "note": "没抽出去的脆生生",
     "type": "income"
+  },
+  {
+    "date": "2025-11-11",
+    "amount": -19,
+    "category": "非主动支出",
+    "note": "啥意思啊apple为什么又扣我19",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-11",
+    "amount": -20.9,
+    "category": "日用品",
+    "note": "洗衣液用完了再买了一个大的，本来是22结果正好打折",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-11",
+    "amount": -29.99,
+    "category": "交通",
+    "note": "奢侈一下打车去上班",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-11",
+    "amount": -26.39,
+    "category": "税",
+    "note": "工资还没到账先交税了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-11",
+    "amount": -5,
+    "category": "交通",
+    "note": "地铁回宿舍",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-11",
+    "amount": -32.8,
+    "category": "餐饮",
+    "note": "吃了一份可乐鸡翅+虾仁炒蛋套餐当晚饭，又买了一个上海阿姨的羽衣甘蓝",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-11",
+    "amount": -0.55,
+    "category": "餐饮",
+    "note": "好便宜的饿了么鱼籽村拌饭",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-11",
+    "amount": -5,
+    "category": "餐饮",
+    "note": "很难喝的轻果茶",
+    "type": "expense"
   }
+
+
 ]
