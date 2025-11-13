@@ -762,7 +762,54 @@
     "category": "餐饮",
     "note": "很难喝的轻果茶",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-12",
+    "amount": -10.66,
+    "category": "餐饮",
+    "note": "瑞幸的苹果C冰茶，不如苹果冰美式也不如阿克苏苹果拿铁",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-12",
+    "amount": -10,
+    "category": "交通",
+    "note": "地铁来回通勤",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-12",
+    "amount": -20,
+    "category": "非主动支出",
+    "note": "卧槽苹果怎么又扣我20，何意味",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-12",
+    "amount": -30.48,
+    "category": "餐饮",
+    "note": "很一般的健康菜，鸡胸肉+墨鱼鸡块+意大利面，有点小贵，晚上太饿了才点的",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-12",
+    "amount": -24.7,
+    "category": "餐饮",
+    "note": "中午吃的便宜实惠的健康菜，可乐鸡翅+口水鸡+炒蛋，下次还是点这家吧",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-12",
+    "amount": -4.9,
+    "category": "餐饮",
+    "note": "早八买了一瓶营养快线",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-12",
+    "amount": -100,
+    "category": "话费",
+    "note": "到底怎么换一个便宜的套餐",
+    "type": "expense"
   }
-
-
 ]
