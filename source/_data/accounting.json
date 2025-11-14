@@ -555,13 +555,6 @@
   },
   {
     "date": "2025-11-07",
-    "amount": -15,
-    "category": "餐饮",
-    "note": "两个自动售卖机的鹅腿，太饿了晚上",
-    "type": "expense"
-  },
-  {
-    "date": "2025-11-07",
     "amount": -13.58,
     "category": "赔钱",
     "note": "不知道为什么弄丢了无人机的一根连接线，只好买一根补上了",
@@ -810,6 +803,41 @@
     "amount": -100,
     "category": "话费",
     "note": "到底怎么换一个便宜的套餐",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-13",
+    "amount": -28.9,
+    "category": "餐饮",
+    "note": "麦当劳新的蘑菇牛肉堡好好吃",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-13",
+    "amount": -32.42,
+    "category": "交通",
+    "note": "麦当劳吃太久了只能打车去公司",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-13",
+    "amount": -17.71,
+    "category": "餐饮",
+    "note": "kfc蛋挞好吃，还有昨天吃的忘记算了的麦当劳冰淇淋",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-13",
+    "amount": -9.5,
+    "category": "餐饮",
+    "note": "柠檬味的提拉米苏，太猎奇了，好甜",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-13",
+    "amount": -5,
+    "category": "交通",
+    "note": "坐地铁回宿舍",
     "type": "expense"
   }
 ]
