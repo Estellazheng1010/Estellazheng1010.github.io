@@ -839,5 +839,148 @@
     "category": "交通",
     "note": "坐地铁回宿舍",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-14",
+    "amount": -25,
+    "category": "非主动支出",
+    "note": "尼玛爱奇艺自动续费忘记关了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-14",
+    "amount": -16,
+    "category": "餐饮",
+    "note": "中午吃了美味馋嘴鸡",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-14",
+    "amount": -10,
+    "category": "交通",
+    "note": "地铁来回通勤",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-14",
+    "amount": -6.9,
+    "category": "餐饮",
+    "note": "喝了一杯甜啦啦苹果金菠萝 只有pineapple味没有apple味",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-14",
+    "amount": -4.9,
+    "category": "餐饮",
+    "note": "买了一瓶阿萨姆，一直以为阿萨姆只要3块，没想到要5块",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-14",
+    "amount": -10.4,
+    "category": "餐饮",
+    "note": "早饭买了个肠和一杯忘记啥喝的，好像是营养快线",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-14",
+    "amount": -1191.85,
+    "category": "娱乐",
+    "note": "尘尘、、、、八音、、、、特效、、、、",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-15",
+    "amount": -10,
+    "category": "娱乐",
+    "note": "长佩看文",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-15",
+    "amount": -17,
+    "category": "餐饮",
+    "note": "固体杨枝甘露，一般般呵呵",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-15",
+    "amount": -139,
+    "category": "餐饮",
+    "note": "中午费大厨变成了美味水煮鱼",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-15",
+    "amount": -16.61,
+    "category": "餐饮",
+    "note": "阵亡苹果依旧好喝",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-15",
+    "amount": -28.7,
+    "category": "餐饮",
+    "note": "晚饭依旧那家健康菜 可乐鸡翅+虾仁炒蛋+口水鸡",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-15",
+    "amount": -10.54,
+    "category": "交通",
+    "note": "来回打车",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-15",
+    "amount": 0.47,
+    "category": "娱乐",
+    "note": "抢了南枝的红包",
+    "type": "income"
+  },
+  {
+    "date": "2025-11-16",
+    "amount": -139,
+    "category": "娱乐",
+    "note": "雷神加速器呵呵冲了4900个小时",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-16",
+    "amount": -250,
+    "category": "娱乐",
+    "note": "呵呵又给燕云花钱了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-16",
+    "amount": -50,
+    "category": "娱乐",
+    "note": "百业战后开支",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-16",
+    "amount": 1.79,
+    "category": "娱乐",
+    "note": "又抢了南枝的红包",
+    "type": "income"
+  },
+  {
+    "date": "2025-11-16",
+    "amount": -27.06,
+    "category": "餐饮",
+    "note": "中午吃外婆家，还是很好吃嗯嗯",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-16",
+    "amount": -25,
+    "category": "非主动支出",
+    "note": "优酷自动续费又忘了关了呵呵",
+    "type": "expense"
   }
+
+
+
 ]
