@@ -7,7 +7,7 @@ top: 94
 ---
 #### 学习
 <!--more-->
-## 每日单词 Daily Words
+## 每日单词 Daily Words（其实并不）
 
 ### 2025. 9.25
 malodorous adj. 恶臭的（mal（坏，恶）+ odor(气味)）
@@ -210,3 +210,6 @@ permafrost n. 永冻层
 bombardment n. 轰炸（bomb(炸弹)+ ard(烧)+ ment）
 
 castigation n. 惩罚；谴责 （cast(纯洁的)+ig（去做）+ation）
+
+### 2025. 11.18
+晚上有空更新，没空顺延

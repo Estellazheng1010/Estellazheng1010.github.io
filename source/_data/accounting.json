@@ -979,6 +979,48 @@
     "category": "非主动支出",
     "note": "优酷自动续费又忘了关了呵呵",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-16",
+    "amount": -7.5,
+    "category": "餐饮",
+    "note": "美味鹅腿",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-17",
+    "amount": -18,
+    "category": "餐饮",
+    "note": "特别美味的馋嘴鸡，感觉比椒麻鸡好吃虽然好久没吃椒麻鸡了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-17",
+    "amount": 14.5,
+    "category": "娱乐",
+    "note": "红包退款",
+    "type": "income"
+  },
+  {
+    "date": "2025-11-17",
+    "amount": -21.6,
+    "category": "餐饮",
+    "note": "沪上阿姨的羽衣甘蓝，爱上羽衣甘蓝只要一瞬间",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-17",
+    "amount": -7.5,
+    "category": "餐饮",
+    "note": "依旧美味鹅腿",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-17",
+    "amount": 2575.5,
+    "category": "实习工资",
+    "note": "实习工资终于到账了，再不到账这个月可支配生活费要被我花完了",
+    "type": "income"
   }
 
 
