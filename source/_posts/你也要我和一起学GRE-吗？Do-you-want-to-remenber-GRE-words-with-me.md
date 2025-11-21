@@ -211,5 +211,5 @@ bombardment n. 轰炸（bomb(炸弹)+ ard(烧)+ ment）
 
 castigation n. 惩罚；谴责 （cast(纯洁的)+ig（去做）+ation）
 
-### 2025. 11.18
+### 2025. 11.21
 晚上有空更新，没空顺延

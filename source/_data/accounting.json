@@ -1021,7 +1021,120 @@
     "category": "实习工资",
     "note": "实习工资终于到账了，再不到账这个月可支配生活费要被我花完了",
     "type": "income"
+  },
+  {
+    "date": "2025-11-18",
+    "amount": -18.2,
+    "category": "餐饮",
+    "note": "瑞幸的早餐真贵",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-18",
+    "amount": -10,
+    "category": "交通",
+    "note": "地铁往返通勤",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-18",
+    "amount": -23.4,
+    "category": "餐饮",
+    "note": "超级无敌难吃的绿茶餐厅套餐，吃了之后几天都没食欲",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-18",
+    "amount": -5.9,
+    "category": "餐饮",
+    "note": "买了一杯椰奶",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-19",
+    "amount": -88,
+    "category": "娱乐",
+    "note": "燕云人情世故",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-19",
+    "amount": -100,
+    "category": "话费",
+    "note": "一百块又没了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-19",
+    "amount": -18,
+    "category": "餐饮",
+    "note": "美味馋嘴鸡感觉在吃了那一顿史之后也不是很美味了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-19",
+    "amount": -46.62,
+    "category": "交通",
+    "note": "打车来回通勤，实在是太痛了，不过我发现拼车好便宜",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-19",
+    "amount": -26,
+    "category": "餐饮",
+    "note": "买了一个暖胃的什么饮品忘记了叫啥但是也一点味道都没有！食之无味哎",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-20",
+    "amount": -29.65,
+    "category": "餐饮",
+    "note": "kfc疯狂星期四吃了四个蛋挞一个小吃拼盘，wzy的券太牛了四个蛋挞8块钱",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-20",
+    "amount": -33.7,
+    "category": "日用品",
+    "note": "买了一点卫生巾，痛的好难受",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-20",
+    "amount": -12,
+    "category": "餐饮",
+    "note": "买了一杯暖胃的益禾堂，还行",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-20",
+    "amount": -36.88,
+    "category": "餐饮",
+    "note": "午饭吃的喝汤时间，哎，感觉也一般般",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-21",
+    "amount": -18.8,
+    "category": "餐饮",
+    "note": "午饭吃的健康菜，感觉也变难吃了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-20",
+    "amount": -4.9,
+    "category": "餐饮",
+    "note": "买了一瓶阿萨姆",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-20",
+    "amount": -25,
+    "category": "非主动支出",
+    "note": "尼玛腾讯视频自动续费、、我难受",
+    "type": "expense"
   }
+
 
 
 
