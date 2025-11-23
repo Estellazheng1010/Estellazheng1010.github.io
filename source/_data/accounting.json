@@ -1133,7 +1133,73 @@
     "category": "非主动支出",
     "note": "尼玛腾讯视频自动续费、、我难受",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-22",
+    "amount": -60,
+    "category": "餐饮",
+    "note": "大书房苹果橙子茶，好贵",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-22",
+    "amount": -269,
+    "category": "娱乐",
+    "note": "虽然感觉没那么爱了但是还是想给sxh花钱",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-22",
+    "amount": -79.65,
+    "category": "娱乐",
+    "note": "百业战后开支",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-22",
+    "amount": -38.9,
+    "category": "餐饮",
+    "note": "中午吃了美味的咖喱鸡排饭，终于有食欲了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-22",
+    "amount": -16.8,
+    "category": "餐饮",
+    "note": "在楼下售卖柜买了一堆乱七八糟的东西，包括了今天和明天的，分开算不明白就放一起了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-23",
+    "amount": -24.61,
+    "category": "餐饮",
+    "note": "午饭吃食其家还是有保障的，温泉蛋牛肉饭好吃",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-23",
+    "amount": -27.8,
+    "category": "餐饮",
+    "note": "猎奇又吃了另一家固体杨枝甘露，居然下面是一整个半个的芒果上面抹奶油，太神奇了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-23",
+    "amount": -71,
+    "category": "娱乐",
+    "note": "还是给洋燕充战令了哎，太美了实在是",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-23",
+    "amount": -6,
+    "category": "餐饮",
+    "note": "晚饭吃了个泡面，要没钱了",
+    "type": "expense"
   }
+
+
+
 
 
 
