@@ -1259,7 +1259,105 @@
     "category": "餐饮",
     "note": "瑞幸的苹果冰美式比草莓冰咖好喝太多了！蛋香火腿三明治也好吃，就是很奢侈吧早饭吃20",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-26",
+    "amount": -12.1,
+    "category": "餐饮",
+    "note": "依旧苹果冰美式，但是没钱买别的早饭了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-26",
+    "amount": -10,
+    "category": "交通",
+    "note": "地铁来回通勤",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-26",
+    "amount": -108,
+    "category": "餐饮",
+    "note": "下班之后大书房喝了一杯长岛冰茶，点了一份小吃拼盘和一份松饼水果拼盘，美名其曰庆祝yyw收到网易云offer",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-26",
+    "amount": -108,
+    "category": "餐饮",
+    "note": "大书房喝了一杯长岛冰茶，点了一份小吃拼盘和一份松饼水果拼盘",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-26",
+    "amount": -13.9,
+    "category": "餐饮",
+    "note": "午饭依旧拼好饭，狮子头除了越来越贵没什么不好的",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-27",
+    "amount": -36.2,
+    "category": "餐饮",
+    "note": "疯狂星期四吃了一个全鸡和四个蛋挞",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-27",
+    "amount": -9.6,
+    "category": "餐饮",
+    "note": "感觉白桃乌龙不好喝了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-27",
+    "amount": -4.9,
+    "category": "餐饮",
+    "note": "一瓶东方树叶",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-27",
+    "amount": -15,
+    "category": "非主动支出",
+    "note": "我去腾讯什么东西又扣我15块",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-28",
+    "amount": -12.9,
+    "category": "餐饮",
+    "note": "深夜刷小红书看到的美食，但是忘记是啥了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-28",
+    "amount": -14.9,
+    "category": "餐饮",
+    "note": "拼好饭的意大利面也很美味",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-28",
+    "amount": -29.29,
+    "category": "交通",
+    "note": "实在不想坐地铁上班最后决定打车",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-28",
+    "amount": -5.5,
+    "category": "餐饮",
+    "note": "我去公司的东方树叶怎么比学校贵",
+    "type": "expense"
   }
+
+
+
+
+  
+
+
 
 
 
