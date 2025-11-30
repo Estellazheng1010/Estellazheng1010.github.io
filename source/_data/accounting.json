@@ -1350,17 +1350,89 @@
     "category": "餐饮",
     "note": "我去公司的东方树叶怎么比学校贵",
     "type": "expense"
+  },
+  {
+    "date": "2025-11-28",
+    "amount": -5,
+    "category": "交通",
+    "note": "地铁回学校",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-28",
+    "amount": 3.39,
+    "category": "娱乐",
+    "note": "接了一单摸榜，提成3.39",
+    "type": "income"
+  },
+  {
+    "date": "2025-11-29",
+    "amount": 20,
+    "category": "娱乐",
+    "note": "接了一单我即是江湖，净赚20",
+    "type": "income"
+  },
+  {
+    "date": "2025-11-29",
+    "amount": -6,
+    "category": "非主动支出",
+    "note": "我c了苹果为什么又扣我6块",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-29",
+    "amount": -5.91,
+    "category": "餐饮",
+    "note": "午餐泡面",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-29",
+    "amount": -8,
+    "category": "交通",
+    "note": "地铁往返，去国贸和张老师吃饭（面基）",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-30",
+    "amount": -5.92,
+    "category": "餐饮",
+    "note": "又是泡面",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-30",
+    "amount": -51,
+    "category": "医疗",
+    "note": "花了51巨款买药，好像有点着凉",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-30",
+    "amount": -58.8,
+    "category": "餐饮",
+    "note": "晚上和疑问去吃了陶三也，本来想吃豪丽斯结果居然闭店了",
+    "type": "expense"
+  },
+  {
+    "date": "2025-11-30",
+    "amount": 400,
+    "category": "不知道怎么分类",
+    "note": "疑问还给我的之前借她买年卡的钱的一半",
+    "type": "income"
+  },
+  {
+    "date": "2025-12-1",
+    "amount": 3000,
+    "category": "生活费",
+    "note": "啊！12月生活费！我一直在惦记你！",
+    "type": "income"
   }
 
 
 
 
   
-
-
-
-
-
 
 
 
