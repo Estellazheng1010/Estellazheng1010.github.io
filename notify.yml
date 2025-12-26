@@ -1,0 +1,59 @@
+name: Notify Subscribers - Manual
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: '运行环境'
+        type: choice
+        required: true
+        default: 'production'
+        options:
+        - development
+        - production
+
+jobs:
+  notify-subscribers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          # 移除了 cache: 'npm' 以避免锁文件错误
+
+      - name: Install dependencies
+        run: |
+          npm install leancloud-storage nodemailer axios
+
+      - name: Get latest post info
+        id: get-post
+        run: |
+          OUTPUT=$(node scripts/get-latest-post.js)
+          echo "$OUTPUT"
+          # 提取标题和URL
+          TITLE=$(echo "$OUTPUT" | grep "TITLE:" | cut -d':' -f2- | sed 's/^ *//')
+          URL=$(echo "$OUTPUT" | grep "URL:" | cut -d':' -f2- | sed 's/^ *//')
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
+          echo "url=$URL" >> $GITHUB_OUTPUT
+
+      - name: Debug - Print Post Info
+        run: |
+          echo "Latest Post Title: ${{ steps.get-post.outputs.title }}"
+          echo "Latest Post URL: ${{ steps.get-post.outputs.url }}"
+
+      - name: Run notification script
+        env:
+          LEANCLOUD_APP_ID: ${{ secrets.LEANCLOUD_APP_ID }}
+          LEANCLOUD_APP_KEY: ${{ secrets.LEANCLOUD_APP_KEY }}
+          LEANCLOUD_SERVER_URL: ${{ secrets.LEANCLOUD_SERVER_URL }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          LATEST_POST_TITLE: ${{ steps.get-post.outputs.title }}
+          LATEST_POST_URL: ${{ steps.get-post.outputs.url }}
+        run: node scripts/notify-subscribers.js
